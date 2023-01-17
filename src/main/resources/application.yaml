@@ -1,0 +1,10 @@
+
+feign:
+  client:
+    name: nuts-country
+    url: https://63b9974f3329392049f821c2.mockapi.io
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: BASIC

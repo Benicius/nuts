@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "93f870a7-7506-46cc-8fc9-d698aaf70ab3",
+		"name": "Nuts - Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10922316"
+	},
+	"item": [
+		{
+			"name": "GET - Number of Countries",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "countryName",
+						"value": "US",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/v1/countries/numberOfCountries",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"countries",
+						"numberOfCountries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Most Official Language",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/countries/mostOfficialLanguage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"countries",
+						"mostOfficialLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Highest Number Official Language",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/countries/highestNumberOfficialLanguage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"countries",
+						"highestNumberOfficialLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Languages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/countries/languages",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"countries",
+						"languages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Most Common Official Language",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/countries/mostCommonOfficialLanguage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"countries",
+						"mostCommonOfficialLanguage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
