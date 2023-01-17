@@ -6,6 +6,8 @@ For the construction of this service I used Spring for the architecture and
 FeignClient to consume a client service, the service have a little configuration inside the application.yaml
 did only to FeignClient.
 
+To run this service, it is only make a clone, to import your IDE and Run NutsApplication.class.
+
 ## Exercise 1
 
 - For the first exercise I create a class DivisibleNumber only for this exercise, this clas have an Int number
